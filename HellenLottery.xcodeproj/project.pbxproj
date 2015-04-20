@@ -1,0 +1,675 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BDAF08B11AE4EC040021A749 /* HellenSettingController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDAF08B01AE4EC040021A749 /* HellenSettingController.m */; };
+		BDAF08B51AE4ED790021A749 /* HellenSettingItem.m in Sources */ = {isa = PBXBuildFile; fileRef = BDAF08B41AE4ED790021A749 /* HellenSettingItem.m */; };
+		BDAF08B91AE4F1920021A749 /* HellenArrowItem.m in Sources */ = {isa = PBXBuildFile; fileRef = BDAF08B81AE4F1920021A749 /* HellenArrowItem.m */; };
+		BDAF08BC1AE4F42E0021A749 /* HellenSwitchItem.m in Sources */ = {isa = PBXBuildFile; fileRef = BDAF08BB1AE4F42E0021A749 /* HellenSwitchItem.m */; };
+		BDAF08C01AE4F4BC0021A749 /* HellenCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BDAF08BF1AE4F4BC0021A749 /* HellenCell.m */; };
+		BDBB9D041ADCB392002A5074 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBB9D031ADCB392002A5074 /* main.m */; };
+		BDBB9D071ADCB392002A5074 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBB9D061ADCB392002A5074 /* AppDelegate.m */; };
+		BDBB9D0A1ADCB392002A5074 /* HellenLottery.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BDBB9D081ADCB392002A5074 /* HellenLottery.xcdatamodeld */; };
+		BDBB9D101ADCB392002A5074 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDBB9D0E1ADCB392002A5074 /* Main.storyboard */; };
+		BDBB9D121ADCB392002A5074 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDBB9D111ADCB392002A5074 /* Images.xcassets */; };
+		BDBB9D151ADCB392002A5074 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDBB9D131ADCB392002A5074 /* LaunchScreen.xib */; };
+		BDBB9D211ADCB392002A5074 /* HellenLotteryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBB9D201ADCB392002A5074 /* HellenLotteryTests.m */; };
+		BDBB9D371ADCC13E002A5074 /* HellenTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBB9D361ADCC13E002A5074 /* HellenTabBarController.m */; };
+		BDBB9D3B1ADCC17C002A5074 /* HellenTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBB9D3A1ADCC17C002A5074 /* HellenTabBar.m */; };
+		BDBB9D3E1ADCEAD4002A5074 /* HellenTabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBB9D3D1ADCEAD4002A5074 /* HellenTabBarButton.m */; };
+		BDBB9D411ADCF0BB002A5074 /* HellenNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBB9D401ADCF0BB002A5074 /* HellenNavigationController.m */; };
+		BDBB9D451ADCF5BE002A5074 /* HellenHallController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBB9D441ADCF5BE002A5074 /* HellenHallController.m */; };
+		BDBB9D491ADD018A002A5074 /* HellenTitleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBB9D481ADD018A002A5074 /* HellenTitleButton.m */; };
+		BDBB9D531ADD0D78002A5074 /* HellenBuyController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBB9D521ADD0D78002A5074 /* HellenBuyController.m */; };
+		BDBB9D561ADD17BC002A5074 /* HellenMimeController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBB9D551ADD17BC002A5074 /* HellenMimeController.m */; };
+		BDBB9D5B1ADD1978002A5074 /* UIImage+Hellen.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBB9D5A1ADD1978002A5074 /* UIImage+Hellen.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BDBB9D1B1ADCB392002A5074 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDBB9CF61ADCB392002A5074 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDBB9CFD1ADCB392002A5074;
+			remoteInfo = HellenLottery;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BDAF08AF1AE4EC040021A749 /* HellenSettingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HellenSettingController.h; sourceTree = "<group>"; };
+		BDAF08B01AE4EC040021A749 /* HellenSettingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HellenSettingController.m; sourceTree = "<group>"; };
+		BDAF08B31AE4ED790021A749 /* HellenSettingItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HellenSettingItem.h; sourceTree = "<group>"; };
+		BDAF08B41AE4ED790021A749 /* HellenSettingItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HellenSettingItem.m; sourceTree = "<group>"; };
+		BDAF08B71AE4F1920021A749 /* HellenArrowItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HellenArrowItem.h; sourceTree = "<group>"; };
+		BDAF08B81AE4F1920021A749 /* HellenArrowItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HellenArrowItem.m; sourceTree = "<group>"; };
+		BDAF08BA1AE4F42E0021A749 /* HellenSwitchItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HellenSwitchItem.h; sourceTree = "<group>"; };
+		BDAF08BB1AE4F42E0021A749 /* HellenSwitchItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HellenSwitchItem.m; sourceTree = "<group>"; };
+		BDAF08BE1AE4F4BC0021A749 /* HellenCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HellenCell.h; sourceTree = "<group>"; };
+		BDAF08BF1AE4F4BC0021A749 /* HellenCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HellenCell.m; sourceTree = "<group>"; };
+		BDBB9CFE1ADCB392002A5074 /* HellenLottery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HellenLottery.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDBB9D021ADCB392002A5074 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDBB9D031ADCB392002A5074 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BDBB9D051ADCB392002A5074 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BDBB9D061ADCB392002A5074 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BDBB9D091ADCB392002A5074 /* HellenLottery.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HellenLottery.xcdatamodel; sourceTree = "<group>"; };
+		BDBB9D0F1ADCB392002A5074 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BDBB9D111ADCB392002A5074 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BDBB9D141ADCB392002A5074 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BDBB9D1A1ADCB392002A5074 /* HellenLotteryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HellenLotteryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDBB9D1F1ADCB392002A5074 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDBB9D201ADCB392002A5074 /* HellenLotteryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HellenLotteryTests.m; sourceTree = "<group>"; };
+		BDBB9D351ADCC13E002A5074 /* HellenTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HellenTabBarController.h; sourceTree = "<group>"; };
+		BDBB9D361ADCC13E002A5074 /* HellenTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HellenTabBarController.m; sourceTree = "<group>"; };
+		BDBB9D391ADCC17C002A5074 /* HellenTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HellenTabBar.h; sourceTree = "<group>"; };
+		BDBB9D3A1ADCC17C002A5074 /* HellenTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HellenTabBar.m; sourceTree = "<group>"; };
+		BDBB9D3C1ADCEAD4002A5074 /* HellenTabBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HellenTabBarButton.h; sourceTree = "<group>"; };
+		BDBB9D3D1ADCEAD4002A5074 /* HellenTabBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HellenTabBarButton.m; sourceTree = "<group>"; };
+		BDBB9D3F1ADCF0BB002A5074 /* HellenNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HellenNavigationController.h; sourceTree = "<group>"; };
+		BDBB9D401ADCF0BB002A5074 /* HellenNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HellenNavigationController.m; sourceTree = "<group>"; };
+		BDBB9D431ADCF5BE002A5074 /* HellenHallController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HellenHallController.h; sourceTree = "<group>"; };
+		BDBB9D441ADCF5BE002A5074 /* HellenHallController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HellenHallController.m; sourceTree = "<group>"; };
+		BDBB9D471ADD018A002A5074 /* HellenTitleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HellenTitleButton.h; sourceTree = "<group>"; };
+		BDBB9D481ADD018A002A5074 /* HellenTitleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HellenTitleButton.m; sourceTree = "<group>"; };
+		BDBB9D511ADD0D78002A5074 /* HellenBuyController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HellenBuyController.h; sourceTree = "<group>"; };
+		BDBB9D521ADD0D78002A5074 /* HellenBuyController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HellenBuyController.m; sourceTree = "<group>"; };
+		BDBB9D541ADD17BC002A5074 /* HellenMimeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HellenMimeController.h; sourceTree = "<group>"; };
+		BDBB9D551ADD17BC002A5074 /* HellenMimeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HellenMimeController.m; sourceTree = "<group>"; };
+		BDBB9D591ADD1978002A5074 /* UIImage+Hellen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Hellen.h"; sourceTree = "<group>"; };
+		BDBB9D5A1ADD1978002A5074 /* UIImage+Hellen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Hellen.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDBB9CFB1ADCB392002A5074 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDBB9D171ADCB392002A5074 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BDAF08B21AE4EC500021A749 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				BDAF08AF1AE4EC040021A749 /* HellenSettingController.h */,
+				BDAF08B01AE4EC040021A749 /* HellenSettingController.m */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		BDAF08B61AE4ED7D0021A749 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				BDAF08B31AE4ED790021A749 /* HellenSettingItem.h */,
+				BDAF08B41AE4ED790021A749 /* HellenSettingItem.m */,
+				BDAF08B71AE4F1920021A749 /* HellenArrowItem.h */,
+				BDAF08B81AE4F1920021A749 /* HellenArrowItem.m */,
+				BDAF08BA1AE4F42E0021A749 /* HellenSwitchItem.h */,
+				BDAF08BB1AE4F42E0021A749 /* HellenSwitchItem.m */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		BDAF08BD1AE4F48E0021A749 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				BDAF08BE1AE4F4BC0021A749 /* HellenCell.h */,
+				BDAF08BF1AE4F4BC0021A749 /* HellenCell.m */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		BDBB9CF51ADCB392002A5074 = {
+			isa = PBXGroup;
+			children = (
+				BDBB9D001ADCB392002A5074 /* HellenLottery */,
+				BDBB9D1D1ADCB392002A5074 /* HellenLotteryTests */,
+				BDBB9CFF1ADCB392002A5074 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BDBB9CFF1ADCB392002A5074 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDBB9CFE1ADCB392002A5074 /* HellenLottery.app */,
+				BDBB9D1A1ADCB392002A5074 /* HellenLotteryTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDBB9D001ADCB392002A5074 /* HellenLottery */ = {
+			isa = PBXGroup;
+			children = (
+				BDBB9D331ADCBB76002A5074 /* other */,
+				BDBB9D321ADCBB6E002A5074 /* setting */,
+				BDBB9D311ADCBB67002A5074 /* mime */,
+				BDBB9D301ADCBB55002A5074 /* lucysquare */,
+				BDBB9D2F1ADCBB19002A5074 /* lottery */,
+				BDBB9D2E1ADCBB09002A5074 /* buy */,
+				BDBB9D2D1ADCBAEC002A5074 /* hall */,
+				BDBB9D2C1ADCBADD002A5074 /* main */,
+				BDBB9D011ADCB392002A5074 /* Supporting Files */,
+			);
+			path = HellenLottery;
+			sourceTree = "<group>";
+		};
+		BDBB9D011ADCB392002A5074 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BDBB9D0E1ADCB392002A5074 /* Main.storyboard */,
+				BDBB9D111ADCB392002A5074 /* Images.xcassets */,
+				BDBB9D131ADCB392002A5074 /* LaunchScreen.xib */,
+				BDBB9D081ADCB392002A5074 /* HellenLottery.xcdatamodeld */,
+				BDBB9D021ADCB392002A5074 /* Info.plist */,
+				BDBB9D031ADCB392002A5074 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BDBB9D1D1ADCB392002A5074 /* HellenLotteryTests */ = {
+			isa = PBXGroup;
+			children = (
+				BDBB9D201ADCB392002A5074 /* HellenLotteryTests.m */,
+				BDBB9D1E1ADCB392002A5074 /* Supporting Files */,
+			);
+			path = HellenLotteryTests;
+			sourceTree = "<group>";
+		};
+		BDBB9D1E1ADCB392002A5074 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BDBB9D1F1ADCB392002A5074 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BDBB9D2C1ADCBADD002A5074 /* main */ = {
+			isa = PBXGroup;
+			children = (
+				BDBB9D381ADCC15D002A5074 /* view */,
+				BDBB9D341ADCC106002A5074 /* controller */,
+			);
+			name = main;
+			sourceTree = "<group>";
+		};
+		BDBB9D2D1ADCBAEC002A5074 /* hall */ = {
+			isa = PBXGroup;
+			children = (
+				BDBB9D421ADCF59F002A5074 /* controller */,
+			);
+			name = hall;
+			sourceTree = "<group>";
+		};
+		BDBB9D2E1ADCBB09002A5074 /* buy */ = {
+			isa = PBXGroup;
+			children = (
+				BDBB9D4D1ADD0A64002A5074 /* controller */,
+				BDBB9D461ADD0178002A5074 /* view */,
+			);
+			name = buy;
+			sourceTree = "<group>";
+		};
+		BDBB9D2F1ADCBB19002A5074 /* lottery */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = lottery;
+			sourceTree = "<group>";
+		};
+		BDBB9D301ADCBB55002A5074 /* lucysquare */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = lucysquare;
+			sourceTree = "<group>";
+		};
+		BDBB9D311ADCBB67002A5074 /* mime */ = {
+			isa = PBXGroup;
+			children = (
+				BDBB9D571ADD1808002A5074 /* controller */,
+			);
+			name = mime;
+			sourceTree = "<group>";
+		};
+		BDBB9D321ADCBB6E002A5074 /* setting */ = {
+			isa = PBXGroup;
+			children = (
+				BDAF08BD1AE4F48E0021A749 /* view */,
+				BDAF08B61AE4ED7D0021A749 /* model */,
+				BDAF08B21AE4EC500021A749 /* controller */,
+			);
+			name = setting;
+			sourceTree = "<group>";
+		};
+		BDBB9D331ADCBB76002A5074 /* other */ = {
+			isa = PBXGroup;
+			children = (
+				BDBB9D051ADCB392002A5074 /* AppDelegate.h */,
+				BDBB9D061ADCB392002A5074 /* AppDelegate.m */,
+				BDBB9D581ADD1942002A5074 /* Catgory */,
+			);
+			name = other;
+			sourceTree = "<group>";
+		};
+		BDBB9D341ADCC106002A5074 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				BDBB9D3F1ADCF0BB002A5074 /* HellenNavigationController.h */,
+				BDBB9D401ADCF0BB002A5074 /* HellenNavigationController.m */,
+				BDBB9D351ADCC13E002A5074 /* HellenTabBarController.h */,
+				BDBB9D361ADCC13E002A5074 /* HellenTabBarController.m */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		BDBB9D381ADCC15D002A5074 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				BDBB9D391ADCC17C002A5074 /* HellenTabBar.h */,
+				BDBB9D3A1ADCC17C002A5074 /* HellenTabBar.m */,
+				BDBB9D3C1ADCEAD4002A5074 /* HellenTabBarButton.h */,
+				BDBB9D3D1ADCEAD4002A5074 /* HellenTabBarButton.m */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		BDBB9D421ADCF59F002A5074 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				BDBB9D431ADCF5BE002A5074 /* HellenHallController.h */,
+				BDBB9D441ADCF5BE002A5074 /* HellenHallController.m */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		BDBB9D461ADD0178002A5074 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				BDBB9D471ADD018A002A5074 /* HellenTitleButton.h */,
+				BDBB9D481ADD018A002A5074 /* HellenTitleButton.m */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		BDBB9D4D1ADD0A64002A5074 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				BDBB9D511ADD0D78002A5074 /* HellenBuyController.h */,
+				BDBB9D521ADD0D78002A5074 /* HellenBuyController.m */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		BDBB9D571ADD1808002A5074 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				BDBB9D541ADD17BC002A5074 /* HellenMimeController.h */,
+				BDBB9D551ADD17BC002A5074 /* HellenMimeController.m */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		BDBB9D581ADD1942002A5074 /* Catgory */ = {
+			isa = PBXGroup;
+			children = (
+				BDBB9D591ADD1978002A5074 /* UIImage+Hellen.h */,
+				BDBB9D5A1ADD1978002A5074 /* UIImage+Hellen.m */,
+			);
+			name = Catgory;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDBB9CFD1ADCB392002A5074 /* HellenLottery */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDBB9D241ADCB392002A5074 /* Build configuration list for PBXNativeTarget "HellenLottery" */;
+			buildPhases = (
+				BDBB9CFA1ADCB392002A5074 /* Sources */,
+				BDBB9CFB1ADCB392002A5074 /* Frameworks */,
+				BDBB9CFC1ADCB392002A5074 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HellenLottery;
+			productName = HellenLottery;
+			productReference = BDBB9CFE1ADCB392002A5074 /* HellenLottery.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BDBB9D191ADCB392002A5074 /* HellenLotteryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDBB9D271ADCB392002A5074 /* Build configuration list for PBXNativeTarget "HellenLotteryTests" */;
+			buildPhases = (
+				BDBB9D161ADCB392002A5074 /* Sources */,
+				BDBB9D171ADCB392002A5074 /* Frameworks */,
+				BDBB9D181ADCB392002A5074 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDBB9D1C1ADCB392002A5074 /* PBXTargetDependency */,
+			);
+			name = HellenLotteryTests;
+			productName = HellenLotteryTests;
+			productReference = BDBB9D1A1ADCB392002A5074 /* HellenLotteryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDBB9CF61ADCB392002A5074 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = bottle;
+				TargetAttributes = {
+					BDBB9CFD1ADCB392002A5074 = {
+						CreatedOnToolsVersion = 6.2;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+						};
+					};
+					BDBB9D191ADCB392002A5074 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = BDBB9CFD1ADCB392002A5074;
+					};
+				};
+			};
+			buildConfigurationList = BDBB9CF91ADCB392002A5074 /* Build configuration list for PBXProject "HellenLottery" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BDBB9CF51ADCB392002A5074;
+			productRefGroup = BDBB9CFF1ADCB392002A5074 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDBB9CFD1ADCB392002A5074 /* HellenLottery */,
+				BDBB9D191ADCB392002A5074 /* HellenLotteryTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDBB9CFC1ADCB392002A5074 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDBB9D101ADCB392002A5074 /* Main.storyboard in Resources */,
+				BDBB9D151ADCB392002A5074 /* LaunchScreen.xib in Resources */,
+				BDBB9D121ADCB392002A5074 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDBB9D181ADCB392002A5074 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDBB9CFA1ADCB392002A5074 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDAF08B91AE4F1920021A749 /* HellenArrowItem.m in Sources */,
+				BDBB9D0A1ADCB392002A5074 /* HellenLottery.xcdatamodeld in Sources */,
+				BDBB9D071ADCB392002A5074 /* AppDelegate.m in Sources */,
+				BDBB9D041ADCB392002A5074 /* main.m in Sources */,
+				BDBB9D411ADCF0BB002A5074 /* HellenNavigationController.m in Sources */,
+				BDBB9D3E1ADCEAD4002A5074 /* HellenTabBarButton.m in Sources */,
+				BDAF08BC1AE4F42E0021A749 /* HellenSwitchItem.m in Sources */,
+				BDBB9D3B1ADCC17C002A5074 /* HellenTabBar.m in Sources */,
+				BDBB9D531ADD0D78002A5074 /* HellenBuyController.m in Sources */,
+				BDBB9D5B1ADD1978002A5074 /* UIImage+Hellen.m in Sources */,
+				BDBB9D491ADD018A002A5074 /* HellenTitleButton.m in Sources */,
+				BDBB9D451ADCF5BE002A5074 /* HellenHallController.m in Sources */,
+				BDAF08C01AE4F4BC0021A749 /* HellenCell.m in Sources */,
+				BDAF08B11AE4EC040021A749 /* HellenSettingController.m in Sources */,
+				BDAF08B51AE4ED790021A749 /* HellenSettingItem.m in Sources */,
+				BDBB9D371ADCC13E002A5074 /* HellenTabBarController.m in Sources */,
+				BDBB9D561ADD17BC002A5074 /* HellenMimeController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDBB9D161ADCB392002A5074 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDBB9D211ADCB392002A5074 /* HellenLotteryTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BDBB9D1C1ADCB392002A5074 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDBB9CFD1ADCB392002A5074 /* HellenLottery */;
+			targetProxy = BDBB9D1B1ADCB392002A5074 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BDBB9D0E1ADCB392002A5074 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDBB9D0F1ADCB392002A5074 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BDBB9D131ADCB392002A5074 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDBB9D141ADCB392002A5074 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BDBB9D221ADCB392002A5074 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BDBB9D231ADCB392002A5074 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BDBB9D251ADCB392002A5074 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HellenLottery/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		BDBB9D261ADCB392002A5074 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HellenLottery/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		BDBB9D281ADCB392002A5074 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HellenLotteryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HellenLottery.app/HellenLottery";
+			};
+			name = Debug;
+		};
+		BDBB9D291ADCB392002A5074 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HellenLotteryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HellenLottery.app/HellenLottery";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDBB9CF91ADCB392002A5074 /* Build configuration list for PBXProject "HellenLottery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDBB9D221ADCB392002A5074 /* Debug */,
+				BDBB9D231ADCB392002A5074 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDBB9D241ADCB392002A5074 /* Build configuration list for PBXNativeTarget "HellenLottery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDBB9D251ADCB392002A5074 /* Debug */,
+				BDBB9D261ADCB392002A5074 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDBB9D271ADCB392002A5074 /* Build configuration list for PBXNativeTarget "HellenLotteryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDBB9D281ADCB392002A5074 /* Debug */,
+				BDBB9D291ADCB392002A5074 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BDBB9D081ADCB392002A5074 /* HellenLottery.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BDBB9D091ADCB392002A5074 /* HellenLottery.xcdatamodel */,
+			);
+			currentVersion = BDBB9D091ADCB392002A5074 /* HellenLottery.xcdatamodel */;
+			path = HellenLottery.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BDBB9CF61ADCB392002A5074 /* Project object */;
+}
