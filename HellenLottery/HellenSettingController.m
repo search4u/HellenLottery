@@ -9,8 +9,10 @@
 #import "HellenSettingController.h"
 #import "HellenCell.h"
 @interface HellenSettingController()
-
-
+/**
+ *  tableview有多少组
+ */
+@property (nonatomic,strong) NSArray *groups;
 
 @end
 

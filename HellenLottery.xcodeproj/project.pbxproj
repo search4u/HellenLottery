@@ -12,6 +12,7 @@
 		BDAF08B91AE4F1920021A749 /* HellenArrowItem.m in Sources */ = {isa = PBXBuildFile; fileRef = BDAF08B81AE4F1920021A749 /* HellenArrowItem.m */; };
 		BDAF08BC1AE4F42E0021A749 /* HellenSwitchItem.m in Sources */ = {isa = PBXBuildFile; fileRef = BDAF08BB1AE4F42E0021A749 /* HellenSwitchItem.m */; };
 		BDAF08C01AE4F4BC0021A749 /* HellenCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BDAF08BF1AE4F4BC0021A749 /* HellenCell.m */; };
+		BDAF08C31AE5066F0021A749 /* HellenGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = BDAF08C21AE5066F0021A749 /* HellenGroup.m */; };
 		BDBB9D041ADCB392002A5074 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBB9D031ADCB392002A5074 /* main.m */; };
 		BDBB9D071ADCB392002A5074 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBB9D061ADCB392002A5074 /* AppDelegate.m */; };
 		BDBB9D0A1ADCB392002A5074 /* HellenLottery.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BDBB9D081ADCB392002A5074 /* HellenLottery.xcdatamodeld */; };
@@ -51,6 +52,8 @@
 		BDAF08BB1AE4F42E0021A749 /* HellenSwitchItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HellenSwitchItem.m; sourceTree = "<group>"; };
 		BDAF08BE1AE4F4BC0021A749 /* HellenCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HellenCell.h; sourceTree = "<group>"; };
 		BDAF08BF1AE4F4BC0021A749 /* HellenCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HellenCell.m; sourceTree = "<group>"; };
+		BDAF08C11AE5066F0021A749 /* HellenGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HellenGroup.h; sourceTree = "<group>"; };
+		BDAF08C21AE5066F0021A749 /* HellenGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HellenGroup.m; sourceTree = "<group>"; };
 		BDBB9CFE1ADCB392002A5074 /* HellenLottery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HellenLottery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDBB9D021ADCB392002A5074 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BDBB9D031ADCB392002A5074 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -119,6 +122,8 @@
 				BDAF08B81AE4F1920021A749 /* HellenArrowItem.m */,
 				BDAF08BA1AE4F42E0021A749 /* HellenSwitchItem.h */,
 				BDAF08BB1AE4F42E0021A749 /* HellenSwitchItem.m */,
+				BDAF08C11AE5066F0021A749 /* HellenGroup.h */,
+				BDAF08C21AE5066F0021A749 /* HellenGroup.m */,
 			);
 			name = model;
 			sourceTree = "<group>";
@@ -441,6 +446,7 @@
 				BDBB9D071ADCB392002A5074 /* AppDelegate.m in Sources */,
 				BDBB9D041ADCB392002A5074 /* main.m in Sources */,
 				BDBB9D411ADCF0BB002A5074 /* HellenNavigationController.m in Sources */,
+				BDAF08C31AE5066F0021A749 /* HellenGroup.m in Sources */,
 				BDBB9D3E1ADCEAD4002A5074 /* HellenTabBarButton.m in Sources */,
 				BDAF08BC1AE4F42E0021A749 /* HellenSwitchItem.m in Sources */,
 				BDBB9D3B1ADCC17C002A5074 /* HellenTabBar.m in Sources */,
