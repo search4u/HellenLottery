@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface HellenSettingController : UITableViewController
+#import "HellenBaseSettingController.h"
+@interface HellenSettingController : HellenBaseSettingController
 
 @end

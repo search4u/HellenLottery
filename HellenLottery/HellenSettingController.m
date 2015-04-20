@@ -8,27 +8,12 @@
 
 #import "HellenSettingController.h"
 #import "HellenCell.h"
+#import "HellenGroup.h"
 @interface HellenSettingController()
-/**
- *  tableview有多少组
- */
-@property (nonatomic,strong) NSArray *groups;
 
 @end
 
 @implementation HellenSettingController
-
-- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-    return 0;
-}
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 0;
-}
-
-- (UITableViewCell*)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    return nil;
-}
-
 
 
 @end
