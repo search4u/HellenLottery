@@ -12,8 +12,18 @@
 #import "HellenCell.h"
 @implementation HellenBaseSettingController
 
+- (instancetype)init {
+    return [super initWithStyle:UITableViewStyleGrouped];
+}
 
-- (NSArray *)data {
+- (instancetype)initWithStyle:(UITableViewStyle)style {
+    return [super initWithStyle:UITableViewStyleGrouped];
+}
+
+- (void)viewDidLoad {
+    
+}
+- (NSMutableArray *)data {
     if (_data == nil) {
         _data = [NSMutableArray array];
     }
@@ -30,10 +40,13 @@
 }
 
 - (UITableViewCell*)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    //创建cell
     HellenCell *cell = [HellenCell cellWithTableView:tableView];
-    
-    
-    return nil;
+    //设置cell数据
+    HellenGroup *group = self.data[indexPath.section];
+    cell.item = group.items[indexPath.row];
+    //返回cell
+    return cell;
 }
 
 

@@ -7,8 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-
+@class HellenSettingItem;
 @interface HellenCell : UITableViewCell
+
+@property (nonatomic,copy) HellenSettingItem *item;
 
 + (instancetype)cellWithTableView:(UITableView*)tableView;
 

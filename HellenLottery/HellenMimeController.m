@@ -8,8 +8,10 @@
 
 #import "HellenMimeController.h"
 #import "UIImage+Hellen.h"
+#import "HellenSettingController.h"
 @interface HellenMimeController ()
 @property (weak, nonatomic) IBOutlet UIButton *logBtn;
+- (IBAction)setting:(id)sender;
 
 @end
 
@@ -28,4 +30,8 @@
     [super didReceiveMemoryWarning];
 }
 
+- (IBAction)setting:(id)sender {
+    UINavigationController *vc = [self navigationController];
+    [vc pushViewController:[[HellenSettingController alloc] init] animated:YES];
+}
 @end

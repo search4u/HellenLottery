@@ -7,7 +7,7 @@
 //
 
 #import "HellenCell.h"
-
+#import "HellenSettingItem.h"
 @implementation HellenCell
 
 + (instancetype)cellWithTableView:(UITableView *)tableView {
@@ -19,5 +19,17 @@
     return cell;
 }
 
+
+- (void)setItem:(HellenSettingItem *)item {
+    _item = item;
+    [self setupData];
+}
+
+- (void)setupData {
+    if (self.item.icon) {
+        self.imageView.image = [UIImage imageNamed:self.item.icon];
+    }
+    self.textLabel.text = self.item.title;
+}
 @end
 
