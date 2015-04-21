@@ -10,7 +10,7 @@
 
 @implementation HellenArrowItem
 
-+ (instancetype)itemWithIcon:(NSString *)icon title:(NSString *)title class:(Class)vcClass {
++ (instancetype)itemWithIcon:(NSString *)icon title:(NSString *)title destController:(Class)vcClass {
     HellenArrowItem *item = [self itemWithIcon:icon title:title];
     item.vcClass = vcClass;
     return item;

@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD741D9A1AE5EE5B00933E18 /* HellenMorePushController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD741D991AE5EE5B00933E18 /* HellenMorePushController.m */; };
+		BD741D9E1AE6286F00933E18 /* HellenPushNumController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD741D9D1AE6286F00933E18 /* HellenPushNumController.m */; };
+		BD741DA11AE62B4500933E18 /* HellenLiveController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD741DA01AE62B4500933E18 /* HellenLiveController.m */; };
+		BD741DA41AE62F7600933E18 /* HellenLabelItem.m in Sources */ = {isa = PBXBuildFile; fileRef = BD741DA31AE62F7600933E18 /* HellenLabelItem.m */; };
+		BD741DA71AE631B000933E18 /* HellenAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD741DA61AE631B000933E18 /* HellenAnimationController.m */; };
+		BD741DAE1AE644AB00933E18 /* MBProgressHUD+MJ.m in Sources */ = {isa = PBXBuildFile; fileRef = BD741DAA1AE644AB00933E18 /* MBProgressHUD+MJ.m */; };
+		BD741DAF1AE644AB00933E18 /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BD741DAB1AE644AB00933E18 /* MBProgressHUD.bundle */; };
+		BD741DB01AE644AB00933E18 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = BD741DAD1AE644AB00933E18 /* MBProgressHUD.m */; };
+		BD741DB71AE649CE00933E18 /* HellenMoreNeteaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD741DB61AE649CE00933E18 /* HellenMoreNeteaseController.m */; };
+		BD741DBB1AE6524000933E18 /* HellenNeteaseItem.m in Sources */ = {isa = PBXBuildFile; fileRef = BD741DBA1AE6524000933E18 /* HellenNeteaseItem.m */; };
+		BD741DC31AE65A2900933E18 /* HellenNeteaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BD741DC11AE65A2900933E18 /* HellenNeteaseCell.m */; };
+		BD741DC41AE65A2900933E18 /* HellenNeteaseCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD741DC21AE65A2900933E18 /* HellenNeteaseCell.xib */; };
 		BDAF08B11AE4EC040021A749 /* HellenSettingController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDAF08B01AE4EC040021A749 /* HellenSettingController.m */; };
 		BDAF08B51AE4ED790021A749 /* HellenSettingItem.m in Sources */ = {isa = PBXBuildFile; fileRef = BDAF08B41AE4ED790021A749 /* HellenSettingItem.m */; };
 		BDAF08B91AE4F1920021A749 /* HellenArrowItem.m in Sources */ = {isa = PBXBuildFile; fileRef = BDAF08B81AE4F1920021A749 /* HellenArrowItem.m */; };
@@ -43,6 +55,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BD741D981AE5EE5B00933E18 /* HellenMorePushController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HellenMorePushController.h; sourceTree = "<group>"; };
+		BD741D991AE5EE5B00933E18 /* HellenMorePushController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HellenMorePushController.m; sourceTree = "<group>"; };
+		BD741D9C1AE6286F00933E18 /* HellenPushNumController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HellenPushNumController.h; sourceTree = "<group>"; };
+		BD741D9D1AE6286F00933E18 /* HellenPushNumController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HellenPushNumController.m; sourceTree = "<group>"; };
+		BD741D9F1AE62B4500933E18 /* HellenLiveController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HellenLiveController.h; sourceTree = "<group>"; };
+		BD741DA01AE62B4500933E18 /* HellenLiveController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HellenLiveController.m; sourceTree = "<group>"; };
+		BD741DA21AE62F7600933E18 /* HellenLabelItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HellenLabelItem.h; sourceTree = "<group>"; };
+		BD741DA31AE62F7600933E18 /* HellenLabelItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HellenLabelItem.m; sourceTree = "<group>"; };
+		BD741DA51AE631B000933E18 /* HellenAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HellenAnimationController.h; sourceTree = "<group>"; };
+		BD741DA61AE631B000933E18 /* HellenAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HellenAnimationController.m; sourceTree = "<group>"; };
+		BD741DA91AE644AB00933E18 /* MBProgressHUD+MJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+MJ.h"; sourceTree = "<group>"; };
+		BD741DAA1AE644AB00933E18 /* MBProgressHUD+MJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+MJ.m"; sourceTree = "<group>"; };
+		BD741DAB1AE644AB00933E18 /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
+		BD741DAC1AE644AB00933E18 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		BD741DAD1AE644AB00933E18 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		BD741DB51AE649CE00933E18 /* HellenMoreNeteaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HellenMoreNeteaseController.h; sourceTree = "<group>"; };
+		BD741DB61AE649CE00933E18 /* HellenMoreNeteaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HellenMoreNeteaseController.m; sourceTree = "<group>"; };
+		BD741DB91AE6524000933E18 /* HellenNeteaseItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HellenNeteaseItem.h; sourceTree = "<group>"; };
+		BD741DBA1AE6524000933E18 /* HellenNeteaseItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HellenNeteaseItem.m; sourceTree = "<group>"; };
+		BD741DC01AE65A2900933E18 /* HellenNeteaseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HellenNeteaseCell.h; sourceTree = "<group>"; };
+		BD741DC11AE65A2900933E18 /* HellenNeteaseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HellenNeteaseCell.m; sourceTree = "<group>"; };
+		BD741DC21AE65A2900933E18 /* HellenNeteaseCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HellenNeteaseCell.xib; sourceTree = "<group>"; };
 		BDAF08AF1AE4EC040021A749 /* HellenSettingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HellenSettingController.h; sourceTree = "<group>"; };
 		BDAF08B01AE4EC040021A749 /* HellenSettingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HellenSettingController.m; sourceTree = "<group>"; };
 		BDAF08B31AE4ED790021A749 /* HellenSettingItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HellenSettingItem.h; sourceTree = "<group>"; };
@@ -107,9 +141,67 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BD741D9B1AE627DE00933E18 /* morepush */ = {
+			isa = PBXGroup;
+			children = (
+				BD741D981AE5EE5B00933E18 /* HellenMorePushController.h */,
+				BD741D991AE5EE5B00933E18 /* HellenMorePushController.m */,
+				BD741D9C1AE6286F00933E18 /* HellenPushNumController.h */,
+				BD741D9D1AE6286F00933E18 /* HellenPushNumController.m */,
+				BD741D9F1AE62B4500933E18 /* HellenLiveController.h */,
+				BD741DA01AE62B4500933E18 /* HellenLiveController.m */,
+				BD741DA51AE631B000933E18 /* HellenAnimationController.h */,
+				BD741DA61AE631B000933E18 /* HellenAnimationController.m */,
+			);
+			name = morepush;
+			sourceTree = "<group>";
+		};
+		BD741DA81AE644AB00933E18 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				BD741DA91AE644AB00933E18 /* MBProgressHUD+MJ.h */,
+				BD741DAA1AE644AB00933E18 /* MBProgressHUD+MJ.m */,
+				BD741DAB1AE644AB00933E18 /* MBProgressHUD.bundle */,
+				BD741DAC1AE644AB00933E18 /* MBProgressHUD.h */,
+				BD741DAD1AE644AB00933E18 /* MBProgressHUD.m */,
+			);
+			name = MBProgressHUD;
+			path = "../../../StudyDatas/0419-彩票、触摸/代码/02-ItcastLottery(评分)/00-ItcastLottery/MBProgressHUD";
+			sourceTree = "<group>";
+		};
+		BD741DB11AE6468700933E18 /* morenetease */ = {
+			isa = PBXGroup;
+			children = (
+				BD741DB51AE649CE00933E18 /* HellenMoreNeteaseController.h */,
+				BD741DB61AE649CE00933E18 /* HellenMoreNeteaseController.m */,
+			);
+			name = morenetease;
+			sourceTree = "<group>";
+		};
+		BD741DB81AE6521800933E18 /* Netease */ = {
+			isa = PBXGroup;
+			children = (
+				BD741DB91AE6524000933E18 /* HellenNeteaseItem.h */,
+				BD741DBA1AE6524000933E18 /* HellenNeteaseItem.m */,
+			);
+			name = Netease;
+			sourceTree = "<group>";
+		};
+		BD741DBC1AE6584B00933E18 /* Netease */ = {
+			isa = PBXGroup;
+			children = (
+				BD741DC01AE65A2900933E18 /* HellenNeteaseCell.h */,
+				BD741DC11AE65A2900933E18 /* HellenNeteaseCell.m */,
+				BD741DC21AE65A2900933E18 /* HellenNeteaseCell.xib */,
+			);
+			name = Netease;
+			sourceTree = "<group>";
+		};
 		BDAF08B21AE4EC500021A749 /* controller */ = {
 			isa = PBXGroup;
 			children = (
+				BD741DB11AE6468700933E18 /* morenetease */,
+				BD741D9B1AE627DE00933E18 /* morepush */,
 				BDAF08AF1AE4EC040021A749 /* HellenSettingController.h */,
 				BDAF08B01AE4EC040021A749 /* HellenSettingController.m */,
 				BDAF08C41AE509EF0021A749 /* HellenBaseSettingController.h */,
@@ -121,6 +213,7 @@
 		BDAF08B61AE4ED7D0021A749 /* model */ = {
 			isa = PBXGroup;
 			children = (
+				BD741DB81AE6521800933E18 /* Netease */,
 				BDAF08B31AE4ED790021A749 /* HellenSettingItem.h */,
 				BDAF08B41AE4ED790021A749 /* HellenSettingItem.m */,
 				BDAF08B71AE4F1920021A749 /* HellenArrowItem.h */,
@@ -129,6 +222,8 @@
 				BDAF08BB1AE4F42E0021A749 /* HellenSwitchItem.m */,
 				BDAF08C11AE5066F0021A749 /* HellenGroup.h */,
 				BDAF08C21AE5066F0021A749 /* HellenGroup.m */,
+				BD741DA21AE62F7600933E18 /* HellenLabelItem.h */,
+				BD741DA31AE62F7600933E18 /* HellenLabelItem.m */,
 			);
 			name = model;
 			sourceTree = "<group>";
@@ -136,6 +231,7 @@
 		BDAF08BD1AE4F48E0021A749 /* view */ = {
 			isa = PBXGroup;
 			children = (
+				BD741DBC1AE6584B00933E18 /* Netease */,
 				BDAF08BE1AE4F4BC0021A749 /* HellenCell.h */,
 				BDAF08BF1AE4F4BC0021A749 /* HellenCell.m */,
 			);
@@ -267,6 +363,7 @@
 		BDBB9D331ADCBB76002A5074 /* other */ = {
 			isa = PBXGroup;
 			children = (
+				BD741DA81AE644AB00933E18 /* MBProgressHUD */,
 				BDBB9D051ADCB392002A5074 /* AppDelegate.h */,
 				BDBB9D061ADCB392002A5074 /* AppDelegate.m */,
 				BDBB9D581ADD1942002A5074 /* Catgory */,
@@ -427,7 +524,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDBB9D101ADCB392002A5074 /* Main.storyboard in Resources */,
+				BD741DAF1AE644AB00933E18 /* MBProgressHUD.bundle in Resources */,
 				BDBB9D151ADCB392002A5074 /* LaunchScreen.xib in Resources */,
+				BD741DC41AE65A2900933E18 /* HellenNeteaseCell.xib in Resources */,
 				BDBB9D121ADCB392002A5074 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -446,10 +545,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD741DB71AE649CE00933E18 /* HellenMoreNeteaseController.m in Sources */,
+				BD741D9A1AE5EE5B00933E18 /* HellenMorePushController.m in Sources */,
+				BD741DBB1AE6524000933E18 /* HellenNeteaseItem.m in Sources */,
+				BD741D9E1AE6286F00933E18 /* HellenPushNumController.m in Sources */,
+				BD741DA71AE631B000933E18 /* HellenAnimationController.m in Sources */,
 				BDAF08B91AE4F1920021A749 /* HellenArrowItem.m in Sources */,
+				BD741DC31AE65A2900933E18 /* HellenNeteaseCell.m in Sources */,
 				BDBB9D0A1ADCB392002A5074 /* HellenLottery.xcdatamodeld in Sources */,
 				BDBB9D071ADCB392002A5074 /* AppDelegate.m in Sources */,
+				BD741DAE1AE644AB00933E18 /* MBProgressHUD+MJ.m in Sources */,
+				BD741DA11AE62B4500933E18 /* HellenLiveController.m in Sources */,
 				BDBB9D041ADCB392002A5074 /* main.m in Sources */,
+				BD741DB01AE644AB00933E18 /* MBProgressHUD.m in Sources */,
 				BDBB9D411ADCF0BB002A5074 /* HellenNavigationController.m in Sources */,
 				BDAF08C31AE5066F0021A749 /* HellenGroup.m in Sources */,
 				BDBB9D3E1ADCEAD4002A5074 /* HellenTabBarButton.m in Sources */,
@@ -458,6 +566,7 @@
 				BDBB9D531ADD0D78002A5074 /* HellenBuyController.m in Sources */,
 				BDAF08C61AE509EF0021A749 /* HellenBaseSettingController.m in Sources */,
 				BDBB9D5B1ADD1978002A5074 /* UIImage+Hellen.m in Sources */,
+				BD741DA41AE62F7600933E18 /* HellenLabelItem.m in Sources */,
 				BDBB9D491ADD018A002A5074 /* HellenTitleButton.m in Sources */,
 				BDBB9D451ADCF5BE002A5074 /* HellenHallController.m in Sources */,
 				BDAF08C01AE4F4BC0021A749 /* HellenCell.m in Sources */,

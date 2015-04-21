@@ -12,5 +12,5 @@
 
 @property (nonatomic,assign) Class vcClass;
 
-+ (instancetype)itemWithIcon:(NSString *)icon title:(NSString *)title class:(Class)vcClass;
++ (instancetype)itemWithIcon:(NSString *)icon title:(NSString *)title destController:(Class)vcClass;
 @end
