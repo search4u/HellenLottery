@@ -32,6 +32,7 @@
 - (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier {
     if (self = [super initWithStyle:style reuseIdentifier:reuseIdentifier]) {
         [self setupBg];
+        [self setupSubviews];
     }
     return self;
 }
@@ -44,7 +45,7 @@
     //设置选择的颜色
     UIView *view = [[UIView alloc]init];
     view.backgroundColor = [UIColor colorWithRed:237/255.0 green:233/255.0 blue:218/255.0 alpha:1.0];
-    self.selectedBackgroundView = view;//[[UIImageView alloc]initWithImage:[UIImage imageNamed:@"LuckyBaseBackground"]];
+    self.selectedBackgroundView = view;
 }
 
 - (UIImageView *)arrowView {
@@ -80,6 +81,10 @@
         self.imageView.image = [UIImage imageNamed:self.item.icon];
     }
     self.textLabel.text = self.item.title;
+    self.detailTextLabel.text = self.item.detailTitle;
+}
+- (void)setupSubviews {
+    self.detailTextLabel.backgroundColor = [UIColor clearColor];
 }
 - (void)setupRightView {
     if ([self.item isKindOfClass:[HellenArrowItem class]]) {

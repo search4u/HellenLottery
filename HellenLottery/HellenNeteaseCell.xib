@@ -25,6 +25,10 @@
                 </subviews>
                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
             </view>
+            <connections>
+                <outlet property="imageView" destination="gJr-xL-Fxh" id="VTy-jI-o3i"/>
+                <outlet property="labelView" destination="8dK-oH-c2R" id="M2J-Qh-Fdd"/>
+            </connections>
             <point key="canvasLocation" x="547" y="404"/>
         </collectionViewCell>
     </objects>

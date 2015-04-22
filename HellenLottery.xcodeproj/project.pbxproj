@@ -42,6 +42,43 @@
 		BDBB9D531ADD0D78002A5074 /* HellenBuyController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBB9D521ADD0D78002A5074 /* HellenBuyController.m */; };
 		BDBB9D561ADD17BC002A5074 /* HellenMimeController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBB9D551ADD17BC002A5074 /* HellenMimeController.m */; };
 		BDBB9D5B1ADD1978002A5074 /* UIImage+Hellen.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBB9D5A1ADD1978002A5074 /* UIImage+Hellen.m */; };
+		BDFFA6D21AE745D900A4FD04 /* help.json in Resources */ = {isa = PBXBuildFile; fileRef = BDFFA6D01AE745D900A4FD04 /* help.json */; };
+		BDFFA6D31AE745D900A4FD04 /* products.json in Resources */ = {isa = PBXBuildFile; fileRef = BDFFA6D11AE745D900A4FD04 /* products.json */; };
+		BDFFA6D81AE77B7B00A4FD04 /* HellenHelpController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDFFA6D71AE77B7B00A4FD04 /* HellenHelpController.m */; };
+		BDFFA6DC1AE77C4D00A4FD04 /* HellenHelpItem.m in Sources */ = {isa = PBXBuildFile; fileRef = BDFFA6DB1AE77C4D00A4FD04 /* HellenHelpItem.m */; };
+		BDFFA6DF1AE7857E00A4FD04 /* HellenHtmlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDFFA6DE1AE7857E00A4FD04 /* HellenHtmlViewController.m */; };
+		BDFFA6FF1AE78DDC00A4FD04 /* bjdc_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = BDFFA6E21AE78DDC00A4FD04 /* bjdc_howto.html */; };
+		BDFFA7001AE78DDC00A4FD04 /* coupon_help.html in Resources */ = {isa = PBXBuildFile; fileRef = BDFFA6E31AE78DDC00A4FD04 /* coupon_help.html */; };
+		BDFFA7011AE78DDC00A4FD04 /* credit_help.html in Resources */ = {isa = PBXBuildFile; fileRef = BDFFA6E41AE78DDC00A4FD04 /* credit_help.html */; };
+		BDFFA7021AE78DDC00A4FD04 /* dlt_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = BDFFA6E51AE78DDC00A4FD04 /* dlt_howto.html */; };
+		BDFFA7031AE78DDC00A4FD04 /* f9_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = BDFFA6E61AE78DDC00A4FD04 /* f9_howto.html */; };
+		BDFFA7041AE78DDC00A4FD04 /* gdy11_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = BDFFA6E71AE78DDC00A4FD04 /* gdy11_howto.html */; };
+		BDFFA7051AE78DDC00A4FD04 /* group_record.html in Resources */ = {isa = PBXBuildFile; fileRef = BDFFA6E81AE78DDC00A4FD04 /* group_record.html */; };
+		BDFFA7061AE78DDC00A4FD04 /* help.html in Resources */ = {isa = PBXBuildFile; fileRef = BDFFA6E91AE78DDC00A4FD04 /* help.html */; };
+		BDFFA7071AE78DDC00A4FD04 /* helpGroupBuy.html in Resources */ = {isa = PBXBuildFile; fileRef = BDFFA6EA1AE78DDC00A4FD04 /* helpGroupBuy.html */; };
+		BDFFA7081AE78DDC00A4FD04 /* jclq_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = BDFFA6EB1AE78DDC00A4FD04 /* jclq_howto.html */; };
+		BDFFA7091AE78DDC00A4FD04 /* jczq_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = BDFFA6EC1AE78DDC00A4FD04 /* jczq_howto.html */; };
+		BDFFA70A1AE78DDC00A4FD04 /* jxssc_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = BDFFA6ED1AE78DDC00A4FD04 /* jxssc_howto.html */; };
+		BDFFA70B1AE78DDC00A4FD04 /* jxy11_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = BDFFA6EE1AE78DDC00A4FD04 /* jxy11_howto.html */; };
+		BDFFA70C1AE78DDC00A4FD04 /* k2_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = BDFFA6EF1AE78DDC00A4FD04 /* k2_howto.html */; };
+		BDFFA70D1AE78DDC00A4FD04 /* k3_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = BDFFA6F01AE78DDC00A4FD04 /* k3_howto.html */; };
+		BDFFA70E1AE78DDC00A4FD04 /* kl8_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = BDFFA6F11AE78DDC00A4FD04 /* kl8_howto.html */; };
+		BDFFA70F1AE78DDC00A4FD04 /* lk11_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = BDFFA6F21AE78DDC00A4FD04 /* lk11_howto.html */; };
+		BDFFA7101AE78DDC00A4FD04 /* networkconnectedfailed.html in Resources */ = {isa = PBXBuildFile; fileRef = BDFFA6F31AE78DDC00A4FD04 /* networkconnectedfailed.html */; };
+		BDFFA7111AE78DDC00A4FD04 /* pl3_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = BDFFA6F41AE78DDC00A4FD04 /* pl3_howto.html */; };
+		BDFFA7121AE78DDC00A4FD04 /* pl5_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = BDFFA6F51AE78DDC00A4FD04 /* pl5_howto.html */; };
+		BDFFA7131AE78DDC00A4FD04 /* qlc_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = BDFFA6F61AE78DDC00A4FD04 /* qlc_howto.html */; };
+		BDFFA7141AE78DDC00A4FD04 /* qxc_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = BDFFA6F71AE78DDC00A4FD04 /* qxc_howto.html */; };
+		BDFFA7151AE78DDC00A4FD04 /* rule.css in Resources */ = {isa = PBXBuildFile; fileRef = BDFFA6F81AE78DDC00A4FD04 /* rule.css */; };
+		BDFFA7161AE78DDC00A4FD04 /* sfc_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = BDFFA6F91AE78DDC00A4FD04 /* sfc_howto.html */; };
+		BDFFA7171AE78DDC00A4FD04 /* ssc_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = BDFFA6FA1AE78DDC00A4FD04 /* ssc_howto.html */; };
+		BDFFA7181AE78DDC00A4FD04 /* ssq_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = BDFFA6FB1AE78DDC00A4FD04 /* ssq_howto.html */; };
+		BDFFA7191AE78DDC00A4FD04 /* x3d_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = BDFFA6FC1AE78DDC00A4FD04 /* x3d_howto.html */; };
+		BDFFA71A1AE78DDC00A4FD04 /* y11_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = BDFFA6FD1AE78DDC00A4FD04 /* y11_howto.html */; };
+		BDFFA71B1AE78DDC00A4FD04 /* znzh.html in Resources */ = {isa = PBXBuildFile; fileRef = BDFFA6FE1AE78DDC00A4FD04 /* znzh.html */; };
+		BDFFA71F1AE792D000A4FD04 /* HellenAboutController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDFFA71E1AE792D000A4FD04 /* HellenAboutController.m */; };
+		BDFFA7261AE79D0E00A4FD04 /* HellenAboutHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = BDFFA7251AE79D0E00A4FD04 /* HellenAboutHeader.m */; };
+		BDFFA7281AE79D2000A4FD04 /* HellenAboutHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDFFA7271AE79D2000A4FD04 /* HellenAboutHeader.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -121,6 +158,48 @@
 		BDBB9D551ADD17BC002A5074 /* HellenMimeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HellenMimeController.m; sourceTree = "<group>"; };
 		BDBB9D591ADD1978002A5074 /* UIImage+Hellen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Hellen.h"; sourceTree = "<group>"; };
 		BDBB9D5A1ADD1978002A5074 /* UIImage+Hellen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Hellen.m"; sourceTree = "<group>"; };
+		BDFFA6D01AE745D900A4FD04 /* help.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = help.json; sourceTree = "<group>"; };
+		BDFFA6D11AE745D900A4FD04 /* products.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = products.json; sourceTree = "<group>"; };
+		BDFFA6D61AE77B7B00A4FD04 /* HellenHelpController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HellenHelpController.h; sourceTree = "<group>"; };
+		BDFFA6D71AE77B7B00A4FD04 /* HellenHelpController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HellenHelpController.m; sourceTree = "<group>"; };
+		BDFFA6DA1AE77C4D00A4FD04 /* HellenHelpItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HellenHelpItem.h; sourceTree = "<group>"; };
+		BDFFA6DB1AE77C4D00A4FD04 /* HellenHelpItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HellenHelpItem.m; sourceTree = "<group>"; };
+		BDFFA6DD1AE7857E00A4FD04 /* HellenHtmlViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HellenHtmlViewController.h; sourceTree = "<group>"; };
+		BDFFA6DE1AE7857E00A4FD04 /* HellenHtmlViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HellenHtmlViewController.m; sourceTree = "<group>"; };
+		BDFFA6E21AE78DDC00A4FD04 /* bjdc_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = bjdc_howto.html; sourceTree = "<group>"; };
+		BDFFA6E31AE78DDC00A4FD04 /* coupon_help.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = coupon_help.html; sourceTree = "<group>"; };
+		BDFFA6E41AE78DDC00A4FD04 /* credit_help.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = credit_help.html; sourceTree = "<group>"; };
+		BDFFA6E51AE78DDC00A4FD04 /* dlt_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = dlt_howto.html; sourceTree = "<group>"; };
+		BDFFA6E61AE78DDC00A4FD04 /* f9_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = f9_howto.html; sourceTree = "<group>"; };
+		BDFFA6E71AE78DDC00A4FD04 /* gdy11_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = gdy11_howto.html; sourceTree = "<group>"; };
+		BDFFA6E81AE78DDC00A4FD04 /* group_record.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = group_record.html; sourceTree = "<group>"; };
+		BDFFA6E91AE78DDC00A4FD04 /* help.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = help.html; sourceTree = "<group>"; };
+		BDFFA6EA1AE78DDC00A4FD04 /* helpGroupBuy.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = helpGroupBuy.html; sourceTree = "<group>"; };
+		BDFFA6EB1AE78DDC00A4FD04 /* jclq_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = jclq_howto.html; sourceTree = "<group>"; };
+		BDFFA6EC1AE78DDC00A4FD04 /* jczq_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = jczq_howto.html; sourceTree = "<group>"; };
+		BDFFA6ED1AE78DDC00A4FD04 /* jxssc_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = jxssc_howto.html; sourceTree = "<group>"; };
+		BDFFA6EE1AE78DDC00A4FD04 /* jxy11_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = jxy11_howto.html; sourceTree = "<group>"; };
+		BDFFA6EF1AE78DDC00A4FD04 /* k2_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = k2_howto.html; sourceTree = "<group>"; };
+		BDFFA6F01AE78DDC00A4FD04 /* k3_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = k3_howto.html; sourceTree = "<group>"; };
+		BDFFA6F11AE78DDC00A4FD04 /* kl8_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = kl8_howto.html; sourceTree = "<group>"; };
+		BDFFA6F21AE78DDC00A4FD04 /* lk11_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = lk11_howto.html; sourceTree = "<group>"; };
+		BDFFA6F31AE78DDC00A4FD04 /* networkconnectedfailed.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = networkconnectedfailed.html; sourceTree = "<group>"; };
+		BDFFA6F41AE78DDC00A4FD04 /* pl3_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = pl3_howto.html; sourceTree = "<group>"; };
+		BDFFA6F51AE78DDC00A4FD04 /* pl5_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = pl5_howto.html; sourceTree = "<group>"; };
+		BDFFA6F61AE78DDC00A4FD04 /* qlc_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = qlc_howto.html; sourceTree = "<group>"; };
+		BDFFA6F71AE78DDC00A4FD04 /* qxc_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = qxc_howto.html; sourceTree = "<group>"; };
+		BDFFA6F81AE78DDC00A4FD04 /* rule.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = rule.css; sourceTree = "<group>"; };
+		BDFFA6F91AE78DDC00A4FD04 /* sfc_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = sfc_howto.html; sourceTree = "<group>"; };
+		BDFFA6FA1AE78DDC00A4FD04 /* ssc_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = ssc_howto.html; sourceTree = "<group>"; };
+		BDFFA6FB1AE78DDC00A4FD04 /* ssq_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = ssq_howto.html; sourceTree = "<group>"; };
+		BDFFA6FC1AE78DDC00A4FD04 /* x3d_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = x3d_howto.html; sourceTree = "<group>"; };
+		BDFFA6FD1AE78DDC00A4FD04 /* y11_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = y11_howto.html; sourceTree = "<group>"; };
+		BDFFA6FE1AE78DDC00A4FD04 /* znzh.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = znzh.html; sourceTree = "<group>"; };
+		BDFFA71D1AE792D000A4FD04 /* HellenAboutController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HellenAboutController.h; sourceTree = "<group>"; };
+		BDFFA71E1AE792D000A4FD04 /* HellenAboutController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HellenAboutController.m; sourceTree = "<group>"; };
+		BDFFA7241AE79D0E00A4FD04 /* HellenAboutHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HellenAboutHeader.h; sourceTree = "<group>"; };
+		BDFFA7251AE79D0E00A4FD04 /* HellenAboutHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HellenAboutHeader.m; sourceTree = "<group>"; };
+		BDFFA7271AE79D2000A4FD04 /* HellenAboutHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HellenAboutHeader.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -199,6 +278,8 @@
 		BDAF08B21AE4EC500021A749 /* controller */ = {
 			isa = PBXGroup;
 			children = (
+				BDFFA71C1AE7929A00A4FD04 /* about */,
+				BDFFA6D51AE77B5400A4FD04 /* help */,
 				BD741DB11AE6468700933E18 /* morenetease */,
 				BD741D9B1AE627DE00933E18 /* morepush */,
 				BDAF08AF1AE4EC040021A749 /* HellenSettingController.h */,
@@ -212,6 +293,7 @@
 		BDAF08B61AE4ED7D0021A749 /* model */ = {
 			isa = PBXGroup;
 			children = (
+				BDFFA6D91AE77C2100A4FD04 /* help */,
 				BD741DB81AE6521800933E18 /* Netease */,
 				BDAF08B31AE4ED790021A749 /* HellenSettingItem.h */,
 				BDAF08B41AE4ED790021A749 /* HellenSettingItem.m */,
@@ -230,6 +312,7 @@
 		BDAF08BD1AE4F48E0021A749 /* view */ = {
 			isa = PBXGroup;
 			children = (
+				BDFFA7201AE79C9000A4FD04 /* About */,
 				BD741DBC1AE6584B00933E18 /* Netease */,
 				BDAF08BE1AE4F4BC0021A749 /* HellenCell.h */,
 				BDAF08BF1AE4F4BC0021A749 /* HellenCell.m */,
@@ -274,6 +357,8 @@
 		BDBB9D011ADCB392002A5074 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BDFFA6E11AE78DDC00A4FD04 /* Html */,
+				BDFFA6D41AE745DE00A4FD04 /* Data */,
 				BDBB9D0E1ADCB392002A5074 /* Main.storyboard */,
 				BDBB9D111ADCB392002A5074 /* Images.xcassets */,
 				BDBB9D131ADCB392002A5074 /* LaunchScreen.xib */,
@@ -437,6 +522,90 @@
 			name = Catgory;
 			sourceTree = "<group>";
 		};
+		BDFFA6D41AE745DE00A4FD04 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				BDFFA6D01AE745D900A4FD04 /* help.json */,
+				BDFFA6D11AE745D900A4FD04 /* products.json */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		BDFFA6D51AE77B5400A4FD04 /* help */ = {
+			isa = PBXGroup;
+			children = (
+				BDFFA6D61AE77B7B00A4FD04 /* HellenHelpController.h */,
+				BDFFA6D71AE77B7B00A4FD04 /* HellenHelpController.m */,
+				BDFFA6DD1AE7857E00A4FD04 /* HellenHtmlViewController.h */,
+				BDFFA6DE1AE7857E00A4FD04 /* HellenHtmlViewController.m */,
+			);
+			name = help;
+			sourceTree = "<group>";
+		};
+		BDFFA6D91AE77C2100A4FD04 /* help */ = {
+			isa = PBXGroup;
+			children = (
+				BDFFA6DA1AE77C4D00A4FD04 /* HellenHelpItem.h */,
+				BDFFA6DB1AE77C4D00A4FD04 /* HellenHelpItem.m */,
+			);
+			name = help;
+			sourceTree = "<group>";
+		};
+		BDFFA6E11AE78DDC00A4FD04 /* Html */ = {
+			isa = PBXGroup;
+			children = (
+				BDFFA6E21AE78DDC00A4FD04 /* bjdc_howto.html */,
+				BDFFA6E31AE78DDC00A4FD04 /* coupon_help.html */,
+				BDFFA6E41AE78DDC00A4FD04 /* credit_help.html */,
+				BDFFA6E51AE78DDC00A4FD04 /* dlt_howto.html */,
+				BDFFA6E61AE78DDC00A4FD04 /* f9_howto.html */,
+				BDFFA6E71AE78DDC00A4FD04 /* gdy11_howto.html */,
+				BDFFA6E81AE78DDC00A4FD04 /* group_record.html */,
+				BDFFA6E91AE78DDC00A4FD04 /* help.html */,
+				BDFFA6EA1AE78DDC00A4FD04 /* helpGroupBuy.html */,
+				BDFFA6EB1AE78DDC00A4FD04 /* jclq_howto.html */,
+				BDFFA6EC1AE78DDC00A4FD04 /* jczq_howto.html */,
+				BDFFA6ED1AE78DDC00A4FD04 /* jxssc_howto.html */,
+				BDFFA6EE1AE78DDC00A4FD04 /* jxy11_howto.html */,
+				BDFFA6EF1AE78DDC00A4FD04 /* k2_howto.html */,
+				BDFFA6F01AE78DDC00A4FD04 /* k3_howto.html */,
+				BDFFA6F11AE78DDC00A4FD04 /* kl8_howto.html */,
+				BDFFA6F21AE78DDC00A4FD04 /* lk11_howto.html */,
+				BDFFA6F31AE78DDC00A4FD04 /* networkconnectedfailed.html */,
+				BDFFA6F41AE78DDC00A4FD04 /* pl3_howto.html */,
+				BDFFA6F51AE78DDC00A4FD04 /* pl5_howto.html */,
+				BDFFA6F61AE78DDC00A4FD04 /* qlc_howto.html */,
+				BDFFA6F71AE78DDC00A4FD04 /* qxc_howto.html */,
+				BDFFA6F81AE78DDC00A4FD04 /* rule.css */,
+				BDFFA6F91AE78DDC00A4FD04 /* sfc_howto.html */,
+				BDFFA6FA1AE78DDC00A4FD04 /* ssc_howto.html */,
+				BDFFA6FB1AE78DDC00A4FD04 /* ssq_howto.html */,
+				BDFFA6FC1AE78DDC00A4FD04 /* x3d_howto.html */,
+				BDFFA6FD1AE78DDC00A4FD04 /* y11_howto.html */,
+				BDFFA6FE1AE78DDC00A4FD04 /* znzh.html */,
+			);
+			path = Html;
+			sourceTree = "<group>";
+		};
+		BDFFA71C1AE7929A00A4FD04 /* about */ = {
+			isa = PBXGroup;
+			children = (
+				BDFFA71D1AE792D000A4FD04 /* HellenAboutController.h */,
+				BDFFA71E1AE792D000A4FD04 /* HellenAboutController.m */,
+			);
+			name = about;
+			sourceTree = "<group>";
+		};
+		BDFFA7201AE79C9000A4FD04 /* About */ = {
+			isa = PBXGroup;
+			children = (
+				BDFFA7241AE79D0E00A4FD04 /* HellenAboutHeader.h */,
+				BDFFA7251AE79D0E00A4FD04 /* HellenAboutHeader.m */,
+				BDFFA7271AE79D2000A4FD04 /* HellenAboutHeader.xib */,
+			);
+			name = About;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -522,11 +691,43 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDFFA7191AE78DDC00A4FD04 /* x3d_howto.html in Resources */,
+				BDFFA70B1AE78DDC00A4FD04 /* jxy11_howto.html in Resources */,
+				BDFFA7131AE78DDC00A4FD04 /* qlc_howto.html in Resources */,
+				BDFFA71A1AE78DDC00A4FD04 /* y11_howto.html in Resources */,
 				BDBB9D101ADCB392002A5074 /* Main.storyboard in Resources */,
+				BDFFA70C1AE78DDC00A4FD04 /* k2_howto.html in Resources */,
+				BDFFA70F1AE78DDC00A4FD04 /* lk11_howto.html in Resources */,
+				BDFFA7111AE78DDC00A4FD04 /* pl3_howto.html in Resources */,
+				BDFFA7061AE78DDC00A4FD04 /* help.html in Resources */,
 				BDBB9D151ADCB392002A5074 /* LaunchScreen.xib in Resources */,
+				BDFFA7141AE78DDC00A4FD04 /* qxc_howto.html in Resources */,
+				BDFFA6D31AE745D900A4FD04 /* products.json in Resources */,
+				BDFFA7171AE78DDC00A4FD04 /* ssc_howto.html in Resources */,
+				BDFFA7051AE78DDC00A4FD04 /* group_record.html in Resources */,
+				BDFFA7151AE78DDC00A4FD04 /* rule.css in Resources */,
 				74FDC5D51AE68DBB00CF1D6F /* MBProgressHUD.bundle in Resources */,
+				BDFFA70E1AE78DDC00A4FD04 /* kl8_howto.html in Resources */,
+				BDFFA7121AE78DDC00A4FD04 /* pl5_howto.html in Resources */,
+				BDFFA7181AE78DDC00A4FD04 /* ssq_howto.html in Resources */,
 				BD741DC41AE65A2900933E18 /* HellenNeteaseCell.xib in Resources */,
+				BDFFA6FF1AE78DDC00A4FD04 /* bjdc_howto.html in Resources */,
+				BDFFA7011AE78DDC00A4FD04 /* credit_help.html in Resources */,
+				BDFFA6D21AE745D900A4FD04 /* help.json in Resources */,
+				BDFFA7281AE79D2000A4FD04 /* HellenAboutHeader.xib in Resources */,
+				BDFFA7071AE78DDC00A4FD04 /* helpGroupBuy.html in Resources */,
 				BDBB9D121ADCB392002A5074 /* Images.xcassets in Resources */,
+				BDFFA7091AE78DDC00A4FD04 /* jczq_howto.html in Resources */,
+				BDFFA7081AE78DDC00A4FD04 /* jclq_howto.html in Resources */,
+				BDFFA70A1AE78DDC00A4FD04 /* jxssc_howto.html in Resources */,
+				BDFFA7001AE78DDC00A4FD04 /* coupon_help.html in Resources */,
+				BDFFA70D1AE78DDC00A4FD04 /* k3_howto.html in Resources */,
+				BDFFA7021AE78DDC00A4FD04 /* dlt_howto.html in Resources */,
+				BDFFA7161AE78DDC00A4FD04 /* sfc_howto.html in Resources */,
+				BDFFA7041AE78DDC00A4FD04 /* gdy11_howto.html in Resources */,
+				BDFFA7031AE78DDC00A4FD04 /* f9_howto.html in Resources */,
+				BDFFA71B1AE78DDC00A4FD04 /* znzh.html in Resources */,
+				BDFFA7101AE78DDC00A4FD04 /* networkconnectedfailed.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -544,9 +745,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDFFA6D81AE77B7B00A4FD04 /* HellenHelpController.m in Sources */,
+				BDFFA6DF1AE7857E00A4FD04 /* HellenHtmlViewController.m in Sources */,
 				74FDC5D71AE68DBB00CF1D6F /* MBProgressHUD+MJ.m in Sources */,
 				BD741DB71AE649CE00933E18 /* HellenMoreNeteaseController.m in Sources */,
+				BDFFA6DC1AE77C4D00A4FD04 /* HellenHelpItem.m in Sources */,
 				BD741D9A1AE5EE5B00933E18 /* HellenMorePushController.m in Sources */,
+				BDFFA7261AE79D0E00A4FD04 /* HellenAboutHeader.m in Sources */,
 				BD741DBB1AE6524000933E18 /* HellenNeteaseItem.m in Sources */,
 				BD741D9E1AE6286F00933E18 /* HellenPushNumController.m in Sources */,
 				BD741DA71AE631B000933E18 /* HellenAnimationController.m in Sources */,
@@ -561,6 +766,7 @@
 				BDBB9D3E1ADCEAD4002A5074 /* HellenTabBarButton.m in Sources */,
 				BDAF08BC1AE4F42E0021A749 /* HellenSwitchItem.m in Sources */,
 				BDBB9D3B1ADCC17C002A5074 /* HellenTabBar.m in Sources */,
+				BDFFA71F1AE792D000A4FD04 /* HellenAboutController.m in Sources */,
 				BDBB9D531ADD0D78002A5074 /* HellenBuyController.m in Sources */,
 				BDAF08C61AE509EF0021A749 /* HellenBaseSettingController.m in Sources */,
 				BDBB9D5B1ADD1978002A5074 /* UIImage+Hellen.m in Sources */,

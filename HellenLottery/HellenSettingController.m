@@ -14,6 +14,8 @@
 #import "HellenSwitchItem.h"
 #import "HellenMorePushController.h"
 #import "HellenMoreNeteaseController.h"
+#import "HellenHelpController.h"
+#import "HellenAboutController.h"
 #import "MBProgressHUD+MJ.h"
 @interface HellenSettingController()
 
@@ -44,11 +46,11 @@
             [MBProgressHUD showError:@"没有新版本"];
         });
     };
-    HellenSettingItem *item21 = [HellenArrowItem itemWithIcon:@"MoreHelp" title:@"帮助" destController:nil];
+    HellenSettingItem *item21 = [HellenArrowItem itemWithIcon:@"MoreHelp" title:@"帮助" destController:[HellenHelpController class]];
     HellenSettingItem *item22 = [HellenArrowItem itemWithIcon:@"MoreShare" title:@"分享" destController:nil];
     HellenSettingItem *item23 = [HellenArrowItem itemWithIcon:@"MoreMessage" title:@"查看消息" destController:nil];
     HellenSettingItem *item24 = [HellenArrowItem itemWithIcon:@"MoreNetease" title:@"产品推荐" destController:[HellenMoreNeteaseController class]];
-    HellenSettingItem *item25 = [HellenArrowItem itemWithIcon:@"MoreAbout" title:@"关于" destController:nil];
+    HellenSettingItem *item25 = [HellenArrowItem itemWithIcon:@"MoreAbout" title:@"关于" destController:[HellenAboutController class]];
     NSArray *items2 = @[item20,item21,item22,item23,item24,item25];
     group2.items = items2;
     [self.data addObject:group2];

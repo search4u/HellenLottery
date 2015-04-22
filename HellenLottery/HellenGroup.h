@@ -20,7 +20,7 @@
 /**
  *  存放HellenSettingItem的数组
  */
-@property (nonatomic,strong) NSArray *items;
+@property (nonatomic,strong) NSMutableArray *items;
 
 
 @end

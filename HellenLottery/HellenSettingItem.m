@@ -18,9 +18,9 @@
     item.title = title;
     return item;
 }
-+ (instancetype)itemWithIcon:(NSString*)icon title:(NSString*)title detailTitle:(NSString*)detailTitle {
-    HellenSettingItem *item = [HellenSettingItem itemWithIcon:icon title:title];
-    item.detailTitle = detailTitle;
-    return item;
-}
+//+ (instancetype)itemWithIcon:(NSString*)icon title:(NSString*)title detailTitle:(NSString*)detailTitle {
+//    HellenSettingItem *item = [HellenSettingItem itemWithIcon:icon title:title];
+//    item.detailTitle = detailTitle;
+//    return item;
+//}
 @end

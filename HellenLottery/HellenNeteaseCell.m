@@ -7,6 +7,12 @@
 //
 
 #import "HellenNeteaseCell.h"
+#import "HellenNeteaseItem.h"
+@interface HellenNeteaseCell()
+@property (weak, nonatomic) IBOutlet UIImageView *imageView;
+@property (weak, nonatomic) IBOutlet UILabel *labelView;
+
+@end
 
 @implementation HellenNeteaseCell
 
@@ -14,4 +20,9 @@
     // Initialization code
 }
 
+- (void)setCellData:(HellenNeteaseItem *)cellData {
+    _cellData = cellData;
+    self.imageView.image = [UIImage imageNamed:cellData.icon];
+    self.labelView.text = cellData.title;
+}
 @end

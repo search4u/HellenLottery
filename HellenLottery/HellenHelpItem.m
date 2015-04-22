@@ -1,25 +1,24 @@
 //
-//  HellenNeteaseItem.m
+//  HellenHelpItem.m
 //  HellenLottery
 //
-//  Created by bottle on 15-4-21.
+//  Created by bottle on 15-4-22.
 //  Copyright (c) 2015年 bottle. All rights reserved.
 //
 
-#import "HellenNeteaseItem.h"
+#import "HellenHelpItem.h"
 
-@implementation HellenNeteaseItem
+@implementation HellenHelpItem
 
 - (instancetype)initWithDict:(NSDictionary *)dict {
     if (self = [super init]) {
-        self.icon = dict[@"icon"];
         self.title = dict[@"title"];
+        self.html = dict[@"html"];
         self.ID = dict[@"id"];
-        self.protocol = dict[@"customUrl"];
-        self.appStoreUrl = dict[@"url"];
     }
     return self;
 }
+
 + (instancetype)itemWithDict:(NSDictionary *)dict {
     return [[self alloc] initWithDict:dict];
 }

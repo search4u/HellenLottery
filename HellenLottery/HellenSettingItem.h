@@ -16,5 +16,5 @@ typedef void(^HellenSettingItemOption)();
 @property (nonatomic,copy) HellenSettingItemOption option;
 
 + (instancetype)itemWithIcon:(NSString*)icon title:(NSString*)title;
-+ (instancetype)itemWithIcon:(NSString*)icon title:(NSString*)title detailTitle:(NSString*)detailTitle;
+//+ (instancetype)itemWithIcon:(NSString*)icon title:(NSString*)title detailTitle:(NSString*)detailTitle;
 @end

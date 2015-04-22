@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
+@class HellenNeteaseItem;
 @interface HellenNeteaseCell : UICollectionViewCell
-
+@property (nonatomic,copy) HellenNeteaseItem *cellData;
 @end
