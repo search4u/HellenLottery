@@ -8,6 +8,6 @@
 
 #import "HellenBaseSettingController.h"
 
-@interface HellenAboutController : UIViewController//HellenBaseSettingController
+@interface HellenAboutController : HellenBaseSettingController
 
 @end

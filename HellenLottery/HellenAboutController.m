@@ -19,12 +19,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-//    HellenGroup *group = [[HellenGroup alloc] init];
-//    HellenSettingItem *item1 = [HellenArrowItem itemWithIcon:nil title:@"评分支持"];
-//    HellenSettingItem *item2 = [HellenArrowItem itemWithIcon:nil title:@"客户电话"];
-//    item2.detailTitle = @"10010";
-//    group.items = @[item1,item2];
-//    [self.data addObject:group];
+    HellenGroup *group = [[HellenGroup alloc] init];
+    HellenSettingItem *item1 = [HellenArrowItem itemWithIcon:nil title:@"评分支持"];
+    HellenSettingItem *item2 = [HellenArrowItem itemWithIcon:nil title:@"客户电话"];
+    item2.detailTitle = @"10010";
+    group.items = @[item1,item2];
+    [self.data addObject:group];
     
     //UINib *nib = [UINib nibWithNibName:@"HellenAboutHeader" bundle:nil];
     NSArray *views = [[NSBundle mainBundle] loadNibNamed:@"HellenAboutHeader" owner:nil options:nil];
@@ -35,8 +35,8 @@
     UIView *view = [views objectAtIndex:0];
     //view.frame = CGRectMake(0, 0, 200, 200);
 //    view.backgroundColor = [UIColor redColor];
-    //self.tableView.tableHeaderView  = view;
-    self.view = view;
+    self.tableView.tableHeaderView  = view;
+    //self.view = view;
     
 //    NSArray* nibViews =  [[NSBundle mainBundle] loadNibNamed:@"sub" owner:self options:nil];
 //    UIView *subView = [nibViews objectAtIndex:0];
